@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+
+  <!-- CSS Stylesheets -->
+
+    <link rel="stylesheet" href="assets/css/reset.css" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body background="assets/images/sayagata-400px.png" alt="background">
+
+    <!-- Heading -->
+
+    <div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h1>Crystal Collector!</h1>
+            </div>
+        </div>
+        
+        <!-- Game-play area -->
+
+		<div class="row">
+			<div class="col-md-5">
+                <p>You will be given a random number at the start of the game.</p>
+
+                <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
+
+                <p>You win the game by matching your total score to a random  number; you lose the game if your total score goes above the random number.</p>
+
+                <p>The value of each crystal is hidden from you until you click on it.</p>
+
+                <p>Each time when the game starts, the game will change the value of each crystal.</p>
+			</div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-3">
+                <p id="randomGameNumber"></p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    Wins:<p id="wins"></p>
+                    Losses:<p id="loss"></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-1">
+                <img src="assets/images/Crystal_cosmic.png" class=gemImage id="Crystal_cosmic" alt="Blue Gem">
+            </div>
+            
+            <div class="col-md-1">
+                <img src="assets/images/Crystal_lottery.png" class=gemImage id="Crystal_lottery" alt="Green Gem">
+            </div>
+
+            <div class="col-md-1">
+                <img src="assets/images/Crystal_quest.png" class=gemImage id="Crystal_quest" alt="Green Gem">                    
+            </div>
+
+            <div class="col-md-1">
+                <img src="assets/images/Crystal_rare.png" class=gemImage id="Crystal_rare" alt="Green Gem">    
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <p id="total-score">Your total score is: </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <p id="score">No score yet</p>
+        </div>
+	</div>
+
+    <!-- jQuery -->
+
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    
+    <!-- Javascript page -->
+    
+	<script src="assets/javascript/game.js" type="text/javascript"></script>
+</body>
+</html>
