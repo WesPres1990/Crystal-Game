@@ -1,0 +1,51 @@
+.container{
+    font-family: "Times New Roman", "Times", "serif";
+}
+
+.col-md-4 h1{
+    background: rgb(168, 107, 2);
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.col-md-5 div{
+    background-color: rgb(253, 231, 235);
+    padding: 20px;
+    padding-bottom: 30px;
+    color: rgb(115, 204, 115);
+    font-weight: bold;
+}
+
+.col-md-3 div{
+    background: rgb(53, 224, 53);
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: purple;
+}
+
+.col-md-2 div{
+    background: rgb(19, 199, 199);
+    margin-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.col-md-3 h5{
+    background: rgb(1, 66, 47);
+    color: white;
+}
+
+.col-md-3 h4{
+    background: rgb(1, 66, 47);
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+    color: white;
+}

@@ -6,6 +6,8 @@ var crystalNo4= Math.floor((Math.random() * 12) + 1);
 var randomGameNumber=Math.floor((Math.random() * 120) + 19);
 
 $('#randomGameNumber').text(randomGameNumber);
+
+var images = ["assets/images/Crystal_cosmic.png", "assets/images/Crystal_lottery.png", "assets/images/Crystal_quest.png", "assets/images/Crystal_rare.png"];
  
 var wins= 0;
 var losses = 0;
