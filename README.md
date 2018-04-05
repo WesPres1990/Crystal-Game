@@ -7,7 +7,7 @@ An interactive game which utilizes JavaScript and jQuery, and involves clicking 
 
 User starts the game via the GitHub Pages [link](https://wespres1990.github.io/Crystal-Game/).
 
-Open opening the game, there are four crystals displayed as buttons on the page, and the player will be shown a random number at the start of the game. When the player clicks on a crystal, it will add a specific amount of points to the player's total score, and this amount is hidden until the player clicks the crystal. Each time a crystal is clicked, the player's score counter is updated.
+Upon opening the game, there are four crystals displayed as buttons on the page, and the player will be shown a random number at the start of the game. When the player clicks on a crystal, it will add a specific amount of points to the player's total score, and this amount is hidden until the player clicks the crystal. Each time a crystal is clicked, the player's score counter is updated.
 
 The player wins if their total score matches the random number from the beginning of the game, and loses if their score goes above the random number.
 
