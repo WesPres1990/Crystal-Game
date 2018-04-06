@@ -16,7 +16,9 @@ The game restarts whenever the player wins or loses. When the game begins again,
 
 ### Technologies Used
 
-Languages - HTML5, CSS4, Bootstrap, JavaScript, jQuery
+Languages - HTML5, CSS4, JavaScript
+
+Libraries - Bootstrap, jQuery
 
 Text Editor - Visual Studio Code
 
