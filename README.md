@@ -18,7 +18,7 @@ The game restarts whenever the player wins or loses. When the game begins again,
 
 Languages - HTML5, CSS4, Bootstrap, JavaScript, jQuery
 
-Text Editor - VS Studio
+Text Editor - Visual Studio Code
 
 
 ## Preview
